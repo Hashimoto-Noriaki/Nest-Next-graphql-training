@@ -20,3 +20,6 @@ https://zenn.dev/norihashimo/articles/de0edfde59edf2
 ```
 npx prettier --write .
 ```
+
+### Next.js
+- ***yarnを使用***
