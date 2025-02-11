@@ -12,7 +12,7 @@ export class Task {
   dueDate: string;
 
   @Field()
-  status: 'NOT_STATUS' | 'PROGRESS' | 'COMPLETED';
+  status: 'NOT_STARTED' | 'PROGRESS' | 'COMPLETED';
 
   @Field({ nullable: true })
   description: string;
