@@ -3,7 +3,7 @@ import { Task } from './models/task.model';
 @Injectable() // NestJS のサービス (Service) であることを示すデコレーター
 export class TaskService {
   tasks: Task[] = []; //初期状態では空の配列 ([])。
-
+  //タスクモデルの配列を定義
   getTasks(): Task[] {
     //getTasks メソッドは、タスク一覧 (Task[]) を取得するためのメソッド。return this.tasks; で、タスクの配列を返す。
     const task1 = new Task();
