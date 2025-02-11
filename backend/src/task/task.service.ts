@@ -3,6 +3,7 @@ import { Task } from './models/task.model';
 
 @Injectable()
 export class TaskService {
+  //タスクモデルの配列を定義
   tasks: Task[] = [];
 
   //タスク一覧を取得するメソッド
