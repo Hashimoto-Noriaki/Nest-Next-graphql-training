@@ -11,7 +11,7 @@ export class TaskService {
     task1.name = '犬';
     task1.dueDate = '2024-02-11';
     task1.status = 'NOT_STARTED';
-    this.tasks.push(task1);
-    return this.tasks;
+    this.tasks.push(task1); // ⑤ task1 をタスクリストに追加
+    return this.tasks; // ⑥ タスク一覧を返す
   }
 }
