@@ -21,5 +21,9 @@ https://zenn.dev/norihashimo/articles/de0edfde59edf2
 yarn prettier --write .
 ```
 
+### Playground
+
+http://localhost:3000/graphql
+
 ### Next.js
 - ***yarnを使用***
