@@ -18,7 +18,7 @@ https://zenn.dev/norihashimo/articles/de0edfde59edf2
 
 - Prettier
 ```
-npx prettier --write .
+yarn prettier --write .
 ```
 
 ### Next.js
